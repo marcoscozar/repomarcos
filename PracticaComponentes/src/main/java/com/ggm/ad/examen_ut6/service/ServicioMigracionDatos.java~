@@ -1,0 +1,36 @@
+package com.ggm.ad.examen_ut6.service;
+
+import com.ggm.ad.examen_ut6.dao.IActorDao;
+import com.ggm.ad.examen_ut6.dao.IAuditoriaDao;
+import com.ggm.ad.examen_ut6.dao.IPeliculaDao;
+import com.ggm.ad.examen_ut6.model.Actor;
+import com.ggm.ad.examen_ut6.model.Pelicula;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ServicioMigracionDatos {
+
+    public static final int EDAD_MINIMA = 40;
+    @Autowired
+    private IActorDao actorDao;
+    @Autowired
+    private IPeliculaDao peliculaDao;
+    @Autowired
+    private IAuditoriaDao auditoriaDao;
+
+    public void ejecutarMigracion() {
+        List<Actor> actores = actorDao.obtenerActoresEnActivoMenoresDe(EDAD_MINIMA);
+
+        for (Actor actor : actores) {
+            List<Pelicula> peliculas = peliculaDao.consultarPeliculasDeActor(actor.getNombreCompleto());
+            actor.setPeliculas(peliculas);
+            actor.getPeliculas();
+        }
+        auditoriaDao.registrarVolcado(actores);
+
+        System.out.println("Migración completada.");
+    }
+}

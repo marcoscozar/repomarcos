@@ -1,0 +1,92 @@
+[
+    {
+        "nombreCompleto": "Robert De Niro",
+        "edad": 80,
+        "enActivo": true,
+        "numGalardones": 2
+    },
+    {
+        "nombreCompleto": "Meryl Streep",
+        "edad": 74,
+        "enActivo": true,
+        "numGalardones": 3
+    },
+    {
+        "nombreCompleto": "Morgan Freeman",
+        "edad": 86,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Al Pacino",
+        "edad": 83,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Zendaya",
+        "edad": 27,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Timothée Chalamet",
+        "edad": 28,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Florence Pugh",
+        "edad": 28,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Tom Holland",
+        "edad": 27,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Anya Taylor-Joy",
+        "edad": 27,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Emma Stone",
+        "edad": 35,
+        "enActivo": true,
+        "numGalardones": 2
+    },
+    {
+        "nombreCompleto": "Margot Robbie",
+        "edad": 33,
+        "enActivo": true,
+        "numGalardones": 2
+    },
+    {
+        "nombreCompleto": "Daniel Kaluuya",
+        "edad": 34,
+        "enActivo": true,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Saoirse Ronan",
+        "edad": 29,
+        "enActivo": true,
+        "numGalardones": 4
+    },
+    {
+        "nombreCompleto": "Leonardo DiCaprio",
+        "edad": 49,
+        "enActivo": false,
+        "numGalardones": 1
+    },
+    {
+        "nombreCompleto": "Brad Pitt",
+        "edad": 60,
+        "enActivo": true,
+        "numGalardones": 2
+    }
+]
