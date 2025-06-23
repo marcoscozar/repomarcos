@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Link2U</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="prefs_file">com.example.myapplication.PREFERENCE_FILE_KEY</string>
+    <string name="default_web_client_id">862726089171-u98a41as1m7v42f4k6qbb4e82g8btl63.apps.googleusercontent.com</string>
+
+
+</resources>
